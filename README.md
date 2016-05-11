@@ -1,7 +1,7 @@
 #DisplayEngine重构
 
 ### 开发背景
-&nbsp;&nbsp;&nbsp;&nbsp;研究DisplayEngine代码，发现了诸如：
+&nbsp;&nbsp;&nbsp;&nbsp，参照了云哥的displayEngine PPT，自己重新理解并总结了现有状况的问题：
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 * 代码编写规范；
