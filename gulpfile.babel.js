@@ -8,10 +8,9 @@ import gulp from 'gulp';
 import gBabel from 'gulp-babel';
 
 gulp.task('babel', () => {
-    gulp.src('transformer/**/*.js')
+    gulp.src('app/**/*.js')
         .pipe(gBabel({
-            presets: ['es2015'],
-            'plugins': ['transform-es2015-modules-amd']
+            presets: ['es2015']
         }).on('error', error => console.log(error)))
         .pipe(gulp.dest('src'));
 });
